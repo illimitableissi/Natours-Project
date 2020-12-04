@@ -1,4 +1,4 @@
-import '../Components/header.css';
+import '../sass/main.sass';
 import logo from '../img/logo-white.png'
 
 function Header() {
