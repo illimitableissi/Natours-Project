@@ -3,6 +3,9 @@ import '../sass/main.sass';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
+import img1 from '../img/nat-1-large.jpg'
+import img2 from '../img/nat-2-large.jpg'
+import img3 from '../img/nat-3-large.jpg'
 
 const AboutMe = () => {
     return (
@@ -21,7 +24,11 @@ const AboutMe = () => {
                     <a href="#" className="btn-text">Learn more -{">"}</a>
                 </Col>
                 <Col>
-                    Image composition
+                    <div className="composition">
+                        <Image src={img1} alt="Photo 1" className="composition__photo composition__photo--p1"></Image>
+                        <Image src={img2} alt="Photo 2" className="composition__photo composition__photo--p2"></Image>
+                        <Image src={img3} alt="Photo 3" className="composition__photo composition__photo--p3"></Image>
+                    </div>
                 </Col>
             </Row>
         </div>
