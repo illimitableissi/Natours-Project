@@ -2,14 +2,17 @@ import React from 'react';
 import '../sass/main.sass';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import img1 from '../img/nat-1-large.jpg'
 import img2 from '../img/nat-2-large.jpg'
 import img3 from '../img/nat-3-large.jpg'
 
+
 const AboutMe = () => {
     return (
-        <div className="section-about"> 
+        <div className="section-about">
+            <Container>
             <div className="u-center-text u-margin-bottom-big">
                 <h2 className="heading-secondary">
                     Exciting tours for adventurous people.
@@ -31,6 +34,7 @@ const AboutMe = () => {
                     </div>
                 </Col>
             </Row>
+            </Container> 
         </div>
     );
 };
