@@ -5,6 +5,7 @@ import Tours from './Components/Tours'
 import Stories from './Components/Stories'
 import Booking from './Components/Booking'
 import Footer from './Components/Footer'
+import '../src/sass/main.css'
 
 function App() {
   return (
