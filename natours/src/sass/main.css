@@ -297,13 +297,13 @@ body {
   color: #fff;
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
-  transfrom: translateY(-2px);
+  transform: translateY(-2px);
 }
 
 .btn-text:active {
   -webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
-  transfrom: translateY(0px);
+  transform: translateY(0px);
 }
 
 .card {
