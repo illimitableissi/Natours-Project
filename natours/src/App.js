@@ -5,7 +5,7 @@ import Tours from './Components/Tours'
 import Stories from './Components/Stories'
 import Booking from './Components/Booking'
 import Footer from './Components/Footer'
-import '../src/sass/main.css'
+import '../src/sass/main.sass'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <AboutMe />
       <Features />
       <Tours />
+      <Stories />
     </div>
   );
 }
