@@ -15,6 +15,7 @@ function App() {
       <Features />
       <Tours />
       <Stories />
+      <Booking />
     </div>
   );
 }
