@@ -11,8 +11,8 @@ const Stories = () => {
         <div className="section-stories">
             <div className="bg-video">
                 <video className="bg-video__content" autoplay muted loop>
-                    <source src={vid1} type="video/mp4"></source>
-                    <source src={vid2} type="video/webm"></source>
+                    <source src={vid1} type="video/mp4" />
+                    <source src={vid2} type="video/webm" />
                     Your browser is not supported!
                 </video>
             </div>
