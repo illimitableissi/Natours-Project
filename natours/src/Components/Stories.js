@@ -10,7 +10,7 @@ const Stories = () => {
     return (
         <div className="section-stories">
             <div className="bg-video">
-                <video className="bg-video__content" autoplay muted loop>
+                <video className="bg-video__content" autoPlay muted loop>
                     <source src={vid1} type="video/mp4" />
                     <source src={vid2} type="video/webm" />
                     Your browser is not supported!
